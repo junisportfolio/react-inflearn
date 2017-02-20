@@ -29,7 +29,6 @@ export default class ContactDetails extends React.Component {
             isEdit: !this.state.isEdit
         });
 
-        this.nameInput.focus();
     }
 
     handleChange(e) {
