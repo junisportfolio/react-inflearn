@@ -1,0 +1,37 @@
+{
+  "name": "react-test",
+  "version": "1.0.0",
+  "description": "react-test",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --hot --host 0.0.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/junisportfolio/react.git"
+  },
+  "keywords": [
+    "react"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/junisportfolio/react/issues"
+  },
+  "homepage": "https://github.com/junisportfolio/react#readme",
+  "dependencies": {
+    "babel-preset-stage-0": "^6.22.0",
+    "react": "^15.4.2",
+    "react-addons-update": "^15.4.2",
+    "react-dom": "^15.4.2"
+  },
+  "devDependencies": {
+    "babel-core": "^6.23.1",
+    "babel-loader": "^6.3.0",
+    "babel-preset-es2015": "^6.22.0",
+    "babel-preset-react": "^6.23.0",
+    "react-hot-loader": "^1.3.1",
+    "webpack": "^2.2.1",
+    "webpack-dev-server": "^2.3.0"
+  }
+}

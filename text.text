@@ -1,0 +1,1 @@
+mkdir src src/components public && touch public/index.html src/components/App.js src/index.js webpack.config.js
