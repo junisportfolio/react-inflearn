@@ -1,1 +1,10 @@
 mkdir src src/components public && touch public/index.html src/components/App.js src/index.js webpack.config.js
+
+
+componentWillMount : 랜더링 전
+componentDidMount : 랜더링 후
+componentWillReceiveProps : 새로운 프롭스를 받았을 때
+shouldComponentUpdate : 컴포넌트가 업데이트를 해야하는지 여부 선택하는 부분
+ComponentWillUpdate : 업데이트 전
+ComponentDidUpdate : 업데이트 후
+ComponentWillUnmount : 컴포넌트가 제거될 때
